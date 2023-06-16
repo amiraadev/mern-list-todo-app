@@ -1,0 +1,12 @@
+get http://localhost:3001/todos
+
+###
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "hello ammoura"
+}
+
+DELETE  http://localhost:3001/todo/delete/:id
+
