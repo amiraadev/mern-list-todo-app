@@ -1,5 +1,4 @@
 # mern-list-todo-app
-# MERN To-Do App
 
 This is a simple MERN (MongoDB, Express, React, Node.js) to-do app that allows users to manage their tasks.
 
