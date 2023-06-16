@@ -1,7 +1,8 @@
 # mern-list-todo-app
 
 This is a simple MERN (MongoDB, Express, React, Node.js) to-do app that allows users to manage their tasks.
-
+## Live preview
+https://mern-list-todo-app.onrender.com/
 ## Features
 
 - User can view a list of tasks
