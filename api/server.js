@@ -18,6 +18,10 @@ mongoose.connect(url_mongo,{
 
 const Todo = require('./models/Todo.js')
 
+app.get('/', async (req,res) =>{
+    const todos = await Todo.find();
+    res.json({name:"amira"});
+})
 app.get('/todos', async (req,res) =>{
     const todos = await Todo.find();
     res.json(todos);
